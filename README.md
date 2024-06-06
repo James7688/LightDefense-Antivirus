@@ -1,9 +1,3 @@
-LightDefense is an antivirus that is made to scan your files, we have our unique feature that is called Full Scan( it scan your whole device).
-Our antivirus can deal with active virus( in alpha ).
-Contact us to report bugs : quyanh082013@gmail.com
-The antivirus is only in beta testing ( Do not trust our antivirus )
+LightDefense is an antivirus designed to scan your files. We offer a unique feature called Full Scan, which scans your entire device. Our antivirus can handle active viruses (currently in alpha). Contact us to report bugs at quyanh082013@gmail.com. The antivirus is currently in beta testing, so please use it with caution.
 
-CREDIT :
-Quy Anh Nguyen - Developer,
-Umut Camliyurt - Developer,
-VirusTotal - Database Provider
+CREDIT: Quy Anh Nguyen - Developer, Umut Camliyurt - Developer, VirusTotal - Database Provider
