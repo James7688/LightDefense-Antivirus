@@ -8,7 +8,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 
-API_KEY = '73308602664c6f8aedbe60abbb3fb252b10a42fe0d6261a8ae896a6b17c71b9f'  # Replace with your VirusTotal API key
+API_KEY = 'YOUR_API_KEY'  # Replace with your VirusTotal API key
 
 pause_flag = threading.Event()
 pause_flag.set()
