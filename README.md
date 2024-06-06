@@ -4,6 +4,6 @@ Contact us to report bugs : quyanh082013@gmail.com
 The antivirus is only in beta testing ( Do not trust our antivirus )
 
 CREDIT :
-Quy Anh Nguyen - Developer
-Umut Camliyurt - Developer
+Quy Anh Nguyen - Developer,
+Umut Camliyurt - Developer,
 VirusTotal - Database Provider
