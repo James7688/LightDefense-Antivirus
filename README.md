@@ -1,6 +1,6 @@
-# VirusTotal File Scanner
+# LightDefend Antivirus
 
-This application is a GUI-based antivirus tool that scans files using the VirusTotal API. It allows users to upload files for scanning, perform full system scans, pause/resume scans, abort scans, and view scan history.
+LightDefense is an antivirus designed to scan your files. We offer a unique feature called Full Scan, which scans your entire device. Our antivirus can handle active viruses (currently in alpha). Contact us to report bugs at quyanh082013@gmail.com. The antivirus is currently in beta testing, so please use it with caution.
 
 ## Features
 
