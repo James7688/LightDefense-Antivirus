@@ -5,7 +5,6 @@ LightDefense is an antivirus designed to scan your files. We offer a unique feat
 ## Features:
 
 - Manual file scan
-- Device Scan
 - Real time protection for downloads
 - Connects to VirusTotal using [Tor](https://en.wikipedia.org/wiki/Tor_(network)) for anonymity
 
