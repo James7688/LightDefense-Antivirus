@@ -2,11 +2,10 @@
 
 LightDefense is an antivirus designed to scan your files. Our antivirus can handle active viruses (currently in alpha). Contact us to report bugs at quyanh082013@gmail.com. The antivirus is currently in beta testing, so please use it with caution.
 
-## Features:
+## Features
 
-- Manual file scan
-- Real time protection for downloads
-- Connects to VirusTotal using [Tor](https://en.wikipedia.org/wiki/Tor_(network)) for anonymity
+- **File Scan:** Upload a single file to scan for viruses.
+- **Full Scan:** Perform a full system scan starting from the `C:` drive.
 
 ## Screenshot:
 
