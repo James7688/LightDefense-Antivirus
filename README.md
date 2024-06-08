@@ -34,7 +34,7 @@ python3 lightdefense.py
 <!-- SCREENSHOT -->
 ## Screenshot:
 
-![image](image.png)
+![image](UI.png)
 
 <!-- CREDITS -->
 ## Credits:
