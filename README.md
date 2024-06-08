@@ -10,13 +10,13 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 ***Please download Tor Browser to get access to the v2.0 version that have all features.***
 
 <!-- FEATURES -->
-## Features for normal version :
+## Features for normal version( Beta ) :
 
 - File Scan
-- Device Scan
+- Device Scan( Alpha Testing )
 - Tkinter GUI
 
-## Features for version 2.0 :
+## Features for version 2.0( Alpha ) :
 
 - File scan
 - Manual file scan
