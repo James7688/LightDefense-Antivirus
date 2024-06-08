@@ -7,6 +7,7 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 
 ***Warning: Please be mindful of user privacy when uploading files to services like VirusTotal, as it can potentially expose sensitive information to third parties.***
 
+***NOTE: If you download the .exe file then you will not unlock full fearures, paste the python script into your executor to get access to full features***
 <!-- FEATURES -->
 ## Features:
 
