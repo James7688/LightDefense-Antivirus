@@ -10,7 +10,12 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 ***Please download Tor Browser to get access to the v2.0 version that have all features.***
 
 <!-- FEATURES -->
-## Features:
+## Features for normal version :
+
+-File Scan
+-Device Scan
+
+## Features for version 2.0 :
 
 - Manual file scan
 - Real time protection for downloads
@@ -18,20 +23,16 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 - Tkinter GUI
 
 <!-- INSTALLATION -->
-## Installation:
+## Installation for normal version :
 
-1. Add your VirusTotal API Key in lightdefense.py
+1. Download it on github.
+2. Just open the app after you download it.
 
-2. Start Tor in background
+## Installation for version 2.0
 
-Run by:
-```sh
-git clone https://github.com/umutcamliyurt/LightDefense.git
-cd LightDefense/
-sudo apt-get update
-sudo apt install python3 python3-tk
-python3 lightdefense.py
-```
+1. Download it on github.
+2. Start Tor in background.
+3. Open the app.
 
 <!-- SCREENSHOT -->
 ## Screenshot:
