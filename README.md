@@ -18,6 +18,7 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 
 ## Features for version 2.0 :
 
+- File scan
 - Manual file scan
 - Real time protection for downloads
 - Connects to VirusTotal using [Tor](https://en.wikipedia.org/wiki/Tor_(network)) for anonymity
