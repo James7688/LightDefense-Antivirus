@@ -7,6 +7,8 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 
 ***Warning: Please be mindful of user privacy when uploading files to services like VirusTotal, as it can potentially expose sensitive information to third parties.***
 
+***Please download Tor Browser to get access to the v2.0 version that have all features.***
+
 <!-- FEATURES -->
 ## Features:
 
