@@ -37,7 +37,7 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 3. Open the app.
 
 <!-- SCREENSHOT -->
-## Screenshot:
+## Screenshot of version 2.0:
 
 ![image](UI.png)
 
