@@ -12,8 +12,8 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 <!-- FEATURES -->
 ## Features for normal version :
 
--File Scan
--Device Scan
+- File Scan
+- Device Scan
 
 ## Features for version 2.0 :
 
