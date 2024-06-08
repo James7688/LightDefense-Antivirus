@@ -2,7 +2,6 @@ import requests
 import os
 import tkinter as tk
 from tkinter import filedialog, Label, Button, Frame, Menu, messagebox, Toplevel, ttk, scrolledtext
-from PIL import Image, ImageTk
 import threading
 import time
 import json
