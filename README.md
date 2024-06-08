@@ -7,8 +7,6 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 
 ***Warning: Please be mindful of user privacy when uploading files to services like VirusTotal, as it can potentially expose sensitive information to third parties.***
 
-***Please download Tor Browser to get access to the v2.0 version that have all features.***
-
 <!-- FEATURES -->
 ## Features for normal version( Beta ) :
 
@@ -25,16 +23,10 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 - Tkinter GUI
 
 <!-- INSTALLATION -->
-## Installation for normal version :
+## Installation
 
 1. Download it on github.
 2. Just open the app after you downloaded it.
-
-## Installation for version 2.0:
-
-1. Download it on github.
-2. Start Tor in background.
-3. Open the app.
 
 <!-- SCREENSHOT -->
 ## Screenshot of version 2.0:
