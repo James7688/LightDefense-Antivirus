@@ -28,7 +28,7 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 ## Installation for normal version :
 
 1. Download it on github.
-2. Just open the app after you download it.
+2. Just open the app after you downloaded it.
 
 ## Installation for version 2.0:
 
