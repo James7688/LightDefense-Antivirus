@@ -14,6 +14,7 @@ Scanning files anonymously on VirusTotal offers a multitude of benefits, primari
 
 - File Scan
 - Device Scan
+- Tkinter GUI
 
 ## Features for version 2.0 :
 
