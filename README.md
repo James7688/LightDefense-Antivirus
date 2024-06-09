@@ -4,7 +4,8 @@ and replace description with this: LightDefense is an antivirus designed to scan
 
 # Features :
 - File Scan.
-- Real-time protection / Device Scan
+- Real-time protection
+- Full Scan( Device Scan )
 - Manual File Scan
 - Remove Malicious File
 - Tkinter UI
