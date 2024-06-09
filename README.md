@@ -10,7 +10,7 @@ and replace description with this: LightDefense is an antivirus designed to scan
 - Tkinter UI
 
 # Screenshot :
-[image](UI.png)
+![image](UI.png)
 
 # CREDIT :
 - Quy Anh Nguyen - Developer
