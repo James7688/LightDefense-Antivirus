@@ -1,41 +1,17 @@
-# LightDefense
+# LightDefense Antivirus
 
-<!-- DESCRIPTION -->
-## Description:
+and replace description with this: LightDefense is an antivirus designed to scan your files. We offer a unique feature called Full Scan, which scans your entire device. Our antivirus can handle active viruses (currently in alpha). Contact us to report bugs at quyanh082013@gmail.com. The antivirus is currently in beta testing, so please use it with caution.
 
-Scanning files anonymously on VirusTotal offers a multitude of benefits, primarily revolving around privacy and security. By submitting files anonymously, users can protect sensitive information from being linked to their identity, ensuring confidentiality. This anonymity also shields users from potential retribution or targeting by malicious actors who may take offense to the file submissions. LightDefense is a tool for anonymously scanning files on VirusTotal.
+# Features :
+- File Scan.
+- Real-time protection / Device Scan
+- Manual File Scan
+- Remove Malicious File
+- Tkinter UI
 
-***Warning: Please be mindful of user privacy when uploading files to services like VirusTotal, as it can potentially expose sensitive information to third parties.***
+# Screenshot :
+[image](UI.png)
 
-<!-- FEATURES -->
-## Features for normal version( Beta ) :
-
-- File Scan
-- Device Scan( Alpha Testing )
-- Tkinter GUI
-
-## Features for version 2.0( Alpha ) :
-
-- File scan
-- Manual file scan
-- Real time protection for downloads
-- Connects to VirusTotal using [Tor](https://en.wikipedia.org/wiki/Tor_(network)) for anonymity
-- Tkinter GUI
-
-<!-- INSTALLATION -->
-## Installation
-
-1. Download it on github.
-2. Just open the app after you downloaded it.
-
-<!-- SCREENSHOT -->
-## Screenshot of version 2.0:
-
-![image](UI.png)
-
-<!-- CREDITS -->
-## Credits:
-
-- Quy Anh Nguyen - Developer,
-- Umut Camliyurt - Developer, 
-- VirusTotal - Database Provider
+# CREDIT :
+- Quy Anh Nguyen - Developer
+- Umut Camliyurt - Developer
