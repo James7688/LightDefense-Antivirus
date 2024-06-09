@@ -8,24 +8,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Virus Signatures Database
 virus_signatures = {
-    "eicar_test_file": {
-        "name": "EICAR Test File",
-        "signature": "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"
-    },
-    "trojan_win32_agent": {
-        "name": "Trojan.Win32.Agent",
-        "md5": "f51c6156475edbbd11b7b23d1288276d",
-        "sha1": "7a421bb8d855ad0f6d6fd21e6da8398e91fcbd2a"
-    },
-    "trojan_generic": {
-        "name": "Trojan.Generic",
-        "md5": "d41d8cd98f00b204e9800998ecf8427e",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    "worm_win32_autorun": {
-        "name": "Worm.Win32.AutoRun",
-        "md5": "91af2e10f3206cd44baf0a18e82d5e4b",
-        "sha256": "b9ae231f45ebd2d283c87fb8d6d1c8c2d736ec4e8dcfb5c110ed83e2c870ab85"
+    "YOUR_VIRUS_SIGNATURES": {
+
     }
 }
 
