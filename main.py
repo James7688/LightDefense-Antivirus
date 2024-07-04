@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Virus Signatures Database
 virus_signatures = {
-    "YOUR_VIRUS_SIGNATURES": {
+    "YOUR_VIRUS_SIGNATURES": { # sorry, we can give you guys our virus database so you guys need to create a virus database yourself.
 
     }
 }
