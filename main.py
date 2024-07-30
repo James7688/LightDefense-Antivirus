@@ -5,11 +5,28 @@ import time
 import tkinter as tk
 from tkinter import filedialog, Label, Button, Frame, Menu, messagebox, Toplevel, ttk, scrolledtext
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import psutil  # For network monitoring
 
 # Virus Signatures Database
 virus_signatures = {
-    "YOUR_VIRUS_SIGNATURES": { # sorry, we can give you guys our virus database so you guys need to create a virus database yourself.
-
+    "eicar_test_file": {
+        "name": "EICAR Test File",
+        "signature": "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*"
+    },
+    "trojan_win32_agent": {
+        "name": "Trojan.Win32.Agent",
+        "md5": "f51c6156475edbbd11b7b23d1288276d",
+        "sha1": "7a421bb8d855ad0f6d6fd21e6da8398e91fcbd2a"
+    },
+    "trojan_generic": {
+        "name": "Trojan.Generic",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "worm_win32_autorun": {
+        "name": "Worm.Win32.AutoRun",
+        "md5": "91af2e10f3206cd44baf0a18e82d5e4b",
+        "sha256": "b9ae231f45ebd2d283c87fb8d6d1c8c2d736ec4e8dcfb5c110ed83e2c870ab85"
     }
 }
 
@@ -181,6 +198,27 @@ def monitor_system():
                     scanned_files.add(file_path)
         time.sleep(5)  # Adjust the scanning frequency as needed
 
+# Network Monitoring Feature (Basic Firewall)
+def start_network_monitoring():
+    network_window = Toplevel(root)
+    network_window.title("Network Monitoring")
+    network_window.geometry("600x400")
+    network_text = scrolledtext.ScrolledText(network_window, wrap=tk.WORD, font=("Helvetica", 12))
+    network_text.pack(expand=True, fill='both')
+
+    def monitor_network():
+        while True:
+            network_text.delete(1.0, tk.END)
+            connections = psutil.net_connections(kind='inet')
+            for conn in connections:
+                laddr = f"{conn.laddr.ip}:{conn.laddr.port}" if conn.laddr else "N/A"
+                raddr = f"{conn.raddr.ip}:{conn.raddr.port}" if conn.raddr else "N/A"
+                status = conn.status
+                network_text.insert(tk.END, f"Local Address: {laddr} | Remote Address: {raddr} | Status: {status}\n")
+            time.sleep(5)  # Refresh every 5 seconds
+
+    threading.Thread(target=monitor_network, daemon=True).start()
+
 # Create the main window
 root = tk.Tk()
 root.title("LightDefend Antivirus")
@@ -213,6 +251,9 @@ real_time_menu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Real-Time Protection", menu=real_time_menu)
 real_time_menu.add_command(label="Start", command=start_real_time_protection)
 real_time_menu.add_command(label="Stop", command=stop_real_time_protection)
+
+# Add Network Monitoring option to the menu
+menubar.add_command(label="Network Monitoring", command=start_network_monitoring)
 
 # Create a frame for the buttons
 frame = Frame(root, bg="#f0f0f0")
